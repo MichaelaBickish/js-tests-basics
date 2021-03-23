@@ -19,7 +19,9 @@ function largerNum(num1, num2) {
 // output: "F"
 
 function testGrader(score, possible) {
-    
+    if (score >= possible) {
+        return "A"
+    }
 }
 
 
@@ -74,8 +76,8 @@ function isStopped(car) {
     if (myCar.moving == false) {
     return true;
 }
-    else if (myCar.moving != false) {
-        return false
+    else if (myCar.moving == true) {
+        return false;
     }
 }
 

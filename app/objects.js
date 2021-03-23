@@ -53,5 +53,5 @@ function colorTheCat() {
 // Example: objectName.property[indexNumber]
 
 function returnIndex(cat) {
-  // your code inside here
+  return cat.likes[3]
 }
