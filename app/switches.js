@@ -1,4 +1,6 @@
-// 1. Given a string with the value of a day of the week, return the number that that day is in the week. A second argument will be provided to determine if should start week on Monday if true, else Sunday if false. If the string is not a day of the week but is bad input, then return the string 'That's not a day of the week'.
+// 1. Given a string with the value of a day of the week, return the number that that day is in the week. 
+// A second argument will be provided to determine if should start week on Monday if true, else Sunday if false. 
+// If the string is not a day of the week but is bad input, then return the string 'That's not a day of the week'.
 // Example: 
     // input: 'Sunday', false
     // output: 1
@@ -7,6 +9,41 @@
     // output: 7
 
 function daysPosition(day, offset) {
+    switch (day) {
+        case `Sunday`, true:
+            return 1;
+            break;
+        case `Monday`, false:
+            return 2;
+            break;
+        case `Tuesday`:
+            return 3;
+            break;
+        case `Wednesday`:
+            return 4;
+            break;
+        case `Thursday`:
+            return 5;
+            break;
+        case `Friday`:
+            return 6;
+            break;
+        case `Saturday`:
+            return 7;
+            break;
+        default:
+            return `That's not a day of the week`
+            
+    }
+
+    switch (offset) {
+        case `Monday`:
+            return false;
+            break;
+        case `Sunday`:
+            return true;
+            break;
+    }
 
 }
 
@@ -27,6 +64,9 @@ function daysPosition(day, offset) {
  */
 
  function golfScore(score, par) {
+     switch (par) {
+
+     }
 
  }
  
