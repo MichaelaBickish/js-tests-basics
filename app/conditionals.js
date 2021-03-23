@@ -19,7 +19,7 @@ function largerNum(num1, num2) {
 // output: "F"
 
 function testGrader(score, possible) {
-    if ()
+    
 }
 
 
